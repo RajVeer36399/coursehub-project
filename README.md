@@ -147,7 +147,7 @@ Role-based access control
 ```
 <img width="1879" height="927" alt="image" src="https://github.com/user-attachments/assets/375abff4-6406-4580-9a3d-6e2989209424" />
 
-
+```
 
 ## 🧑‍💻 Author
 
