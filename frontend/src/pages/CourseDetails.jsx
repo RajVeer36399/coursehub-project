@@ -52,7 +52,7 @@ function CourseDetails() {
   };
 
   return (
-      <div className="max-w-4xl mx-auto px-6 py-8 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+      <div className="max-w-4xl mx-auto px-6 py-8 bg-white rounded-xl shadow-lg overflow-hidden transition hover:shadow-xl">
       <div className="overflow-hidden rounded mb-6">
         <img
           src={course.image}
@@ -84,6 +84,10 @@ function CourseDetails() {
 
       {/* PAID */}
       {course.price > 0 && (
+      <>
+      <span className="inline-block bg-black text-white text-xs px-2 py-1 rounded">
+        Black Friday special
+      </span>
         <div className="mt-6">
           <div className="flex flex-col sm:flex-row gap-3">
             <input
@@ -122,6 +126,7 @@ function CourseDetails() {
             Subscribe
           </button>
         </div>
+        </>
       )}
     </div>
   );
