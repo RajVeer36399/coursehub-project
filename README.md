@@ -142,12 +142,20 @@ Email notifications
 
 Role-based access control
 
-## Screenshots
+## Project Screenshots
 
-```
-<img width="1879" height="927" alt="image" src="https://github.com/user-attachments/assets/375abff4-6406-4580-9a3d-6e2989209424" />
+![Screenshot 2026-01-08 120917](https://github.com/user-attachments/assets/d073cf75-9d4f-4b13-913d-82993198df28)
 
-```
+![Screenshot 2026-01-08 121407](https://github.com/user-attachments/assets/b1ba54b6-32e2-4bdc-877d-c670e4f2657f)
+
+![Screenshot 2026-01-08 121426](https://github.com/user-attachments/assets/4e24a9ec-f949-4643-a52b-628e46f92db9)
+
+![Screenshot 2026-01-08 121456](https://github.com/user-attachments/assets/9abf657a-cf71-4d9e-8179-19eb05714510)
+
+
+
+
+
 
 ## 🧑‍💻 Author
 
