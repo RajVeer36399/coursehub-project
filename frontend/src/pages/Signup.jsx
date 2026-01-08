@@ -58,7 +58,7 @@ function Signup() {
 
         <input
           type="text"
-          placeholder="Name (optional)"
+          placeholder="Name"
           className="w-full border p-2 mb-3 rounded"
           value={name}
           onChange={(e) => setName(e.target.value)}
