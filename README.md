@@ -113,6 +113,7 @@ Render (Deployment)
 # 🔐 Environment Variables
 ## Backend
 MONGO_URI=your_mongodb_uri
+
 JWT_SECRET=your_secret_key
 
 ## Frontend
