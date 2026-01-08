@@ -65,8 +65,8 @@ Custom favicon & branding
 
 Black Friday promo banner
 
-## 🏗️ Tech Stack
-# Frontend
+# 🏗️ Tech Stack
+## Frontend
 
 React (Vite)
 
@@ -78,7 +78,7 @@ Axios
 
 Vercel (Deployment)
 
-# Backend
+## Backend
 
 Node.js
 
@@ -95,6 +95,7 @@ Render (Deployment)
 ## 🗂️ Project Structure
 
 CourseHub-Project/
+
 │
 ├── backend/
 
@@ -125,12 +126,12 @@ CourseHub-Project/
 │
 └── README.md
 
-## 🔐 Environment Variables
-# Backend
+# 🔐 Environment Variables
+## Backend
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 
-# Frontend
+## Frontend
 VITE_API_BASE_URL=https://coursehub-backend-07lk.onrender.com
 
 ## 🚀 Deployment
