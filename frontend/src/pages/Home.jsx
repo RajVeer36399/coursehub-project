@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import CourseCard from "../components/CourseCard";
 import api from "../services/api";
-import CourseSkeleton from "../components/Courseskeleton";
+import CourseSkeleton from "../components/CourseSkeleton";
 
 function Home() {
   const [courses, setCourses] = useState([]);
