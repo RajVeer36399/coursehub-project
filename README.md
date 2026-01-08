@@ -1,16 +1,16 @@
-## SubscribEd – Full Stack Course Subscription Platform
+## 📘SubscribEd – Full Stack Course Subscription Platform
 
 SubscribEd is a full-stack web application that allows users to browse courses, view detailed descriptions, apply promotional discounts, and subscribe to paid or free courses securely. The project demonstrates real-world full-stack development practices including authentication, protected routes, API integration, database relationships, and deployment.
 
 ## 🔗 Live Demo
 
-Frontend (Vercel):
+## Frontend (Vercel):
 https://coursehub-project.vercel.app/
 
-Backend (Render):
+## Backend (Render):
 https://coursehub-backend-07lk.onrender.com
 
-🧠 Key Features
+## 🧠 Key Features
 👤 Authentication & Authorization
 
 User signup and login using JWT-based authentication
@@ -21,7 +21,7 @@ Protected routes for subscribed content
 
 Logout clears session safely
 
-📚 Course Management
+## 📚 Course Management
 
 List of available courses with images, price, and short description
 
@@ -35,7 +35,7 @@ Discounted pricing (Black Friday edition)
 
 Hover animations and smooth UI transitions
 
-💳 Subscriptions
+## 💳 Subscriptions
 
 Subscribe to free or paid courses
 
@@ -45,7 +45,7 @@ Prevents duplicate subscriptions
 
 User-specific subscription history
 
-🧾 My Courses
+## 🧾 My Courses
 
 Displays only courses the logged-in user has subscribed to
 
@@ -53,7 +53,7 @@ Shows price paid and subscription date
 
 Protected route (unauthorized users cannot access)
 
-🎨 UI & UX
+## 🎨 UI & UX
 
 Responsive design using Tailwind CSS
 
@@ -65,8 +65,8 @@ Custom favicon & branding
 
 Black Friday promo banner
 
-🏗️ Tech Stack
-Frontend
+## 🏗️ Tech Stack
+# Frontend
 
 React (Vite)
 
@@ -78,7 +78,7 @@ Axios
 
 Vercel (Deployment)
 
-Backend
+# Backend
 
 Node.js
 
@@ -92,35 +92,48 @@ JWT
 
 Render (Deployment)
 
-🗂️ Project Structure
+## 🗂️ Project Structure
+
 CourseHub-Project/
 │
 ├── backend/
+
 │   ├── models/
+
 │   ├── routes/
+
 │   ├── middleware/
+
 │   ├── server.js
 │
+
 ├── frontend/
+
 │   ├── src/
+
 │   │   ├── components/
+
 │   │   ├── pages/
+
 │   │   ├── layouts/
+
 │   │   ├── services/
+
 │   ├── public/
+
 │   ├── index.html
 │
 └── README.md
 
-🔐 Environment Variables
-Backend
+## 🔐 Environment Variables
+# Backend
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 
-Frontend
+# Frontend
 VITE_API_BASE_URL=https://coursehub-backend-07lk.onrender.com
 
-🚀 Deployment
+## 🚀 Deployment
 
 Backend deployed on Render
 
@@ -128,7 +141,7 @@ Frontend deployed on Vercel
 
 CI/CD via GitHub integration
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 
 Payment gateway integration (Stripe/Razorpay)
 
@@ -138,7 +151,7 @@ Email notifications
 
 Role-based access control
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 
 Rajveer
 Aspiring Full-Stack Developer
