@@ -94,21 +94,21 @@ Render (Deployment)
 
 ## 📁 Project Structure
 
-- CourseHub-Project/
-  - backend/
-    - models/
-    - routes/
-    - middleware/
-    - server.js
-  - frontend/
-    - public/
-    - index.html
-    - src/
-      - components/
-      - pages/
-      - layouts/
-      - services/
-  - README.md
+CourseHub-Project/
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── index.html
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── layouts/
+│       └── services/
+└── README.md
 
 # 🔐 Environment Variables
 ## Backend
