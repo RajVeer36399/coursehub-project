@@ -2,7 +2,7 @@
 
 SubscribEd is a full-stack web application that allows users to browse courses, view detailed descriptions, apply promotional discounts, and subscribe to paid or free courses securely. The project demonstrates real-world full-stack development practices including authentication, protected routes, API integration, database relationships, and deployment.
 
-##🔗 Live Demo
+## 🔗 Live Demo
 
 Frontend (Vercel):
 https://coursehub-project.vercel.app/
