@@ -102,7 +102,7 @@ CourseHub-Project/
 │   └── server.js
 ├── frontend/
 │   ├── public/
-│   ├── index.html
+│   │   └── index.html
 │   └── src/
 │       ├── components/
 │       ├── pages/
