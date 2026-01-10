@@ -10,8 +10,8 @@ https://coursehub-project.vercel.app/
 ## Backend (Render):
 https://coursehub-backend-07lk.onrender.com
 
-## 🧠 Key Features
-👤 Authentication & Authorization
+# 🧠 Key Features
+## 👤 Authentication & Authorization
 
 User signup and login using JWT-based authentication
 
@@ -65,7 +65,7 @@ Custom favicon & branding
 
 Black Friday promo banner
 
-# 🏗️ Tech Stack
+# Tech Stack
 ## Frontend
 
 React (Vite)
@@ -114,15 +114,56 @@ CourseHub-Project/
 │
 └── README.md
 ```
+# ⚙️ Local Development Setup
+
+Note: This section is provided for development reference only.
+Reviewers are encouraged to use the live deployed application.
+
+## Prerequisites
+
+Node.js (v18+)
+
+MongoDB Atlas account
+
+## Backend Setup
+```
+cd backend
+
+npm install
+```
+
+## Create a .env file inside backend/:
+```
+MONGO_URI=your_mongodb_connection_string
+
+JWT_SECRET=your_jwt_secret_key
+```
+
+## Run backend:
+```
+npm start
+```
+## Frontend Setup
+```
+cd frontend
+
+npm install
+
+npm run dev
+```
 
 # 🔐 Environment Variables
 ## Backend
+```
 MONGO_URI=your_mongodb_uri
 
 JWT_SECRET=your_secret_key
+```
 
 ## Frontend
+```
 VITE_API_BASE_URL=https://coursehub-backend-07lk.onrender.com
+```
 
 ## 🚀 Deployment
 
