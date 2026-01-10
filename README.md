@@ -1,71 +1,109 @@
-## 📘SubscribEd – Full Stack Course Subscription Platform
+## 📘 SubscribEd – Full-Stack Course Subscription Platform
 
-SubscribEd is a full-stack web application that allows users to browse courses, view detailed descriptions, apply promotional discounts, and subscribe to paid or free courses securely. The project demonstrates real-world full-stack development practices including authentication, protected routes, API integration, database relationships, and deployment.
+SubscribEd is a production-ready full-stack web application that simulates a real-world online course subscription platform.
+Users can browse courses, view detailed information, apply promotional discounts, and securely subscribe to free or paid courses.
 
-## 🔗 Live Demo
+This project demonstrates end-to-end full-stack development skills, including authentication, protected routes, RESTful APIs, database relationships, and cloud deployment.
 
-## Frontend (Vercel):
-https://coursehub-project.vercel.app/
+## 🔗 Live Application
 
-## Backend (Render):
-https://coursehub-backend-07lk.onrender.com
+Frontend (Vercel)
+👉 https://coursehub-project.vercel.app/
+
+Backend API (Render)
+👉 https://coursehub-backend-07lk.onrender.com
+
+Reviewers are encouraged to use the live deployed application.
+Local setup instructions are provided for development reference only.
+
+## 🎯 Project Purpose
+
+The goal of this project was to replicate the core functionality of a modern SaaS-style learning platform, focusing on:
+
+Secure user authentication
+
+User-specific subscriptions and protected content
+
+Clean API architecture
+
+Scalable backend design
+
+Production deployment workflow
+
+It reflects how real-world platforms manage users, subscriptions, pricing logic, and access control.
 
 # 🧠 Key Features
 ## 👤 Authentication & Authorization
 
 User signup and login using JWT-based authentication
 
-Secure token storage using localStorage
+Secure token handling with localStorage
 
 Protected routes for subscribed content
 
-Logout clears session safely
+Logout functionality clears user session safely
 
 ## 📚 Course Management
 
-List of available courses with images, price, and short description
+Browse available courses with images, pricing, and short descriptions
 
-Detailed course view with:
+Detailed course view including:
 
-Full description
+Full course description
 
-Promo code input
+Promotional discount input
 
 Discounted pricing (Black Friday edition)
 
-Hover animations and smooth UI transitions
+Smooth hover effects and UI transitions
 
-## 💳 Subscriptions
+## 💳 Subscriptions & Pricing
 
 Subscribe to free or paid courses
 
-Promo code validation (BFSALE25)
+Backend-validated promo code (BFSALE25)
 
 Prevents duplicate subscriptions
 
-User-specific subscription history
+User-specific subscription records stored securely
 
-## 🧾 My Courses
+## 🧾 My Courses Dashboard
 
-Displays only courses the logged-in user has subscribed to
+Displays only courses subscribed by the logged-in user
 
 Shows price paid and subscription date
 
-Protected route (unauthorized users cannot access)
+Fully protected route (unauthorized access blocked)
 
 ## 🎨 UI & UX
 
 Responsive design using Tailwind CSS
 
-Skeleton loaders for better perceived performance
+Skeleton loaders for improved perceived performance
 
 Consistent layout with sticky footer
 
-Custom favicon & branding
+Custom favicon and branding
 
-Black Friday promo banner
+Promotional banner for special offers
 
-# Tech Stack
+## 🧩 Technical Highlights
+
+JWT authentication with route-level protection
+
+RESTful API design using Express.js
+
+MongoDB schema relationships between Users, Courses, and Subscriptions
+
+Server-side validation for pricing and promo codes
+
+Centralized API service layer using Axios
+
+Environment-based configuration for development and production
+
+Deployed with real-world cloud hosting platforms
+
+# 🛠️ Tech Stack
 ## Frontend
 
 React (Vite)
@@ -76,7 +114,7 @@ Tailwind CSS
 
 Axios
 
-Vercel (Deployment)
+Deployed on Vercel
 
 ## Backend
 
@@ -88,12 +126,11 @@ MongoDB Atlas
 
 Mongoose
 
-JWT
+JSON Web Tokens (JWT)
 
-Render (Deployment)
+Deployed on Render
 
 ## 📁 Project Structure
-
 ```
 CourseHub-Project/
 │
@@ -114,41 +151,37 @@ CourseHub-Project/
 │
 └── README.md
 ```
-# ⚙️ Local Development Setup
 
-Note: This section is provided for development reference only.
-Reviewers are encouraged to use the live deployed application.
+## ⚙️ Local Development Setup (Optional)
+
+This section is intended for developers who wish to run the project locally.
 
 ## Prerequisites
-
-Node.js (v18+)
+Node.js (v18 or higher)
 
 MongoDB Atlas account
 
 ## Backend Setup
 ```
 cd backend
-
 npm install
 ```
 
-## Create a .env file inside backend/:
+## Create a .env file inside the backend/ folder:
 ```
 MONGO_URI=your_mongodb_connection_string
-
 JWT_SECRET=your_jwt_secret_key
 ```
 
-## Run backend:
+## Run the backend server:
 ```
 npm start
 ```
+
 ## Frontend Setup
 ```
 cd frontend
-
 npm install
-
 npm run dev
 ```
 
@@ -156,7 +189,6 @@ npm run dev
 ## Backend
 ```
 MONGO_URI=your_mongodb_uri
-
 JWT_SECRET=your_secret_key
 ```
 
@@ -167,24 +199,23 @@ VITE_API_BASE_URL=https://coursehub-backend-07lk.onrender.com
 
 ## 🚀 Deployment
 
-Backend deployed on Render
-
 Frontend deployed on Vercel
 
-CI/CD via GitHub integration
+Backend deployed on Render
+
+CI/CD enabled via GitHub integration
 
 ## 📌 Future Enhancements
 
-Payment gateway integration (Stripe/Razorpay)
+Payment gateway integration (Stripe / Razorpay)
 
 Admin dashboard for course management
 
 Email notifications
 
-Role-based access control
+Role-based access control (RBAC)
 
 # Screenshots
-
 ## Signup page
 ![Screenshot 2026-01-08 124451](https://github.com/user-attachments/assets/63884b91-1a21-4b19-b512-ad381d7d74db)
 
@@ -205,4 +236,8 @@ Role-based access control
 ## 🧑‍💻 Author
 
 Rajveer
-Aspiring Full-Stack Developer
+
+Full-Stack Developer (MERN)
+
+Focused on building scalable, real-world web applications
+
